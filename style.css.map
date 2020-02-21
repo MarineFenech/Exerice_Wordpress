@@ -1,8 +1,10 @@
 {
     "version": 3,
-    "mappings": ";AAAA;;;;;;;;;;;sCAWsC",
+    "mappings": ";AAAA;;;;;;;;;;;sCAWsC;ACXtC,AAAA,SAAS,CAAC;EACN,KAAK,EAAE,GAAG;CACb;;ACDA,AAAA,MAAM,CAAC,YAAY,AAAA,OAAO,CAAC;EACxB,OAAO,EAAG,IAAI;EACd,MAAM,EAAE,CAAC;EACT,KAAK,EAAE,CAAC;CACX",
     "sources": [
-        "sass/style.scss"
+        "sass/style.scss",
+        "sass/_layout.scss",
+        "sass/_entete.scss"
     ],
     "names": [],
     "file": "style.css"
