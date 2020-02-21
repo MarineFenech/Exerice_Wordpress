@@ -19,9 +19,32 @@
   background-color: aliceblue;
 }
 
+.EnteteDisplay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (min-width: 500px) {
+  .EnteteDisplay {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
 .entry .entry-title:before {
   display: none;
   height: 0;
   width: 0;
+}
+
+p.site-title {
+  margin-right: 7em;
 }
 /*# sourceMappingURL=style.css.map */
