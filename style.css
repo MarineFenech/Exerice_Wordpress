@@ -11,8 +11,12 @@
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twentynineteen-enfant*/
-.maClasse {
+.maClasse1 {
   color: red;
+}
+
+.maClasse2 {
+  background-color: aliceblue;
 }
 
 .entry .entry-title:before {
