@@ -19,23 +19,54 @@
   background-color: aliceblue;
 }
 
-.EnteteDisplay {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+.rayure-grise {
+  background-image: repeating-linear-gradient(-45deg, #ddd, #ddd 20px, #eee 20px, #eee 40px);
 }
 
-@media screen and (min-width: 500px) {
-  .EnteteDisplay {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+@-webkit-keyframes animbloc1 {
+  from {
+    opacity: 0;
   }
+  to {
+    opacity: 100%;
+  }
+}
+
+@keyframes animbloc1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+.animbloc1 {
+  -webkit-animation: animbloc1 3s forwards;
+          animation: animbloc1 3s forwards;
+}
+
+@-webkit-keyframes animbloc2 {
+  from {
+    background-color: white;
+  }
+  to {
+    background-color: pink;
+  }
+}
+
+@keyframes animbloc2 {
+  from {
+    background-color: white;
+  }
+  to {
+    background-color: pink;
+  }
+}
+
+.animbloc2 {
+  -webkit-animation: animbloc2 6s forwards;
+          animation: animbloc2 6s forwards;
 }
 
 .entry .entry-title:before {
@@ -46,5 +77,9 @@
 
 p.site-title {
   margin-right: 7em;
+}
+
+footer {
+  font-size: 5vw;
 }
 /*# sourceMappingURL=style.css.map */

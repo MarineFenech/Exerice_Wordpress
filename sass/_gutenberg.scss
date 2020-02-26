@@ -2,10 +2,28 @@
     background-image: repeating-linear-gradient(-45deg, #ddd, #ddd 20px, #eee 20px, #eee 40px);
   }
 
-.animbloc1 {
+@keyframes animbloc1 {
+  from  {
+      opacity : 0;
+  }
+  to  {
+      opacity: 100%;
+  }
+}
 
+.animbloc1 {
+  animation : animbloc1 3s forwards;
+}
+
+@keyframes animbloc2 {
+  from {
+    background-color: white;
+  }
+  to {
+    background-color: pink;
+  }
 }
 
 .animbloc2 {
-
+  animation : animbloc2 6s forwards;
 }

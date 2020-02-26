@@ -6,15 +6,3 @@
     background-color: aliceblue;
 }
 
-.EnteteDisplay {
-    display: flex;
-    flex-direction: column;
-}
-
-@media screen and (min-width : 500px) {
-
-    .EnteteDisplay {
-        flex-direction: row;
-    }
-
-}

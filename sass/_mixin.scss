@@ -1,6 +1,4 @@
-@mixin couleurFooter () {
-    color: ;
-    font: ;
-    font-size ;
+@mixin couleurFooter ($font-size) {
+    font-size: $font-size ;
 }
   
